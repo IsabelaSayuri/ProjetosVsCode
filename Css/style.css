@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    max-height: 1300px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: D9D9D9;
+    display: flex;
+}
+
+.div-esquerda{
+    width: 50%;
+    height: 1350px;
+   
+    background-size: contain;
+    background-repeat:no-repeat;
+    
+}
+
+.slkpai{
+
+    width: 95%;
+    height: 100%;
+}
+
+.div-direita{
+    
+    width: 50%;
+
+}
+
+.texto{
+    font-size: 45px;
+    margin-top: 3%;
+}
+p{
+    font-size: 50px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.sizeDiv{
+    margin-top: 80px;
+    text-decoration: none;
+    margin-left: 40%;
+    
+}
+
+.btn{
+    display: block;
+   background-color: cornflowerblue;
+   border-style: none;
+    height: 80px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-style: normal;
+    text-align: center;
+    transform: translate3d(-50%, -50%);
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    border-color: cornflowerblue;
+    background-color: white;
+    color:#2E7CBF ;
+    border: 3px solid #2E7CBF; 
+    height: 95px;
+    width: 185px;
+    border-radius: 10px;
+}
+
+
+ 
+  
+  
+
